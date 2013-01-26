@@ -1,0 +1,12 @@
+//
+//ant.property ( 'file' : 'local.properties' )
+//ant.property ( 'file' : 'ant.properties' )
+//ant.property ( 'environment' : 'env' )
+//ant.properties['sdk.dir'] = '${sdkDir}'
+//ant.loadproperties ( 'srcFile' : 'project.properties' )
+
+def sdkDir = "$System.env.ANDROID_HOME"
+ant.importBuild "build.xml"
+//ant.importBuild "${sdkDir}/tools/ant/build.xml" 
+
+

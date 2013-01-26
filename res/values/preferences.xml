@@ -1,0 +1,6 @@
+<resources>
+
+    <string name="pref_current_savings">current_savings</string>
+    <string name="pref_current_fares">current_fares</string>
+
+</resources>

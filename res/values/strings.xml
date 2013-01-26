@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="did_you_use_myki">Here I am, able to compute the fares of trillions in nanoseconds and I bet you used Myki instead.</string>
+    <string name="youve_saved">You\'ve saved ${MONEY}, kickass.</string>
+    <string name="youve_paid">You\'ve paid ${MONEY}. God damnit.</string>
+    <string name="app_name">Myki Saver</string>
+    <string name="reset">Reset</string>
+
+</resources>

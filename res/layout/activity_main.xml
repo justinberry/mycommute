@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/did_you_use_lbl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/marvin"
+        android:gravity="center"
+        android:text="@string/did_you_use_myki" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/did_not_use_myki"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:drawableTop="@drawable/nope"
+        android:gravity="center"
+        android:onClick="onNopeClick" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/i_used_myki"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:drawableTop="@drawable/yup"
+        android:gravity="center"
+        android:onClick="onYupClick" >
+    </TextView>
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onResetClick"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/reset" />
+
+</LinearLayout>
